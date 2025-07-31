@@ -17,7 +17,7 @@ This repository demonstrates fine-tuning and testing of the DINOv2 vision model 
 - [Planned Improvements](#planned-improvements)
 - [References](#references)
 - [License](#license)
-
+```
 ---
 
 ## Project Structure
