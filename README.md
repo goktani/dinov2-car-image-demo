@@ -6,6 +6,16 @@
 This repository demonstrates fine-tuning and testing of the DINOv2 vision model for car image classification. The codebase includes both Python scripts and a step-by-step notebook. **Note:** The results in this repo are preliminary—either the DINOv2 model experienced overfitting or the dataset used was not sufficiently diverse. After presenting this demo to my supervisor, I plan to iterate and improve on the methodology based on received feedback.
 
 ---
+## Model Improvements & Fine-Tuning Strategy
+
+This model extends DINOv2 with the following improvements for the car classification task:
+
+- Fine-tuned on a custom dataset with 44 car models.
+- Initial training on only the final (head) layer.
+- Full network fine-tuning with data augmentation techniques.
+- Early stopping applied during training; best weights saved.
+- Final accuracy evaluated on held-out test data.
+---
 
 ## Table of Contents
 
